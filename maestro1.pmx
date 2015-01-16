@@ -1,0 +1,18 @@
+---
+name: Maestro1
+description: Maestro 1 test
+keywords: Maestro 1
+type: Default
+documentation: This is maestro redstone
+images:
+- name: nginx_latest
+  source: nginx:latest
+  category: web
+  type: Default
+  links:
+  - service: mysql
+    alias: mysql_db
+- name: mysql
+  source: mysql:latest
+  category: db
+  type: Default
