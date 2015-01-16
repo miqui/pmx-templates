@@ -1,0 +1,16 @@
+---
+name: myRabbitMQDev
+description: myRabbitMQDev
+keywords: myRabbitMQDev
+type: Default
+documentation: |-
+  myRabbitMQDev
+  =============
+images:
+- name: rabbitmq_latest
+  source: rabbitmq:latest
+  type: Default
+  ports:
+  - host_port: '5672'
+    container_port: '5672'
+    proto: TCP
