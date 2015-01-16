@@ -1,0 +1,22 @@
+---
+name: redstone2
+description: redstone2
+keywords: redstone2
+type: Default
+documentation: redstone2
+images:
+- name: nginx_latest
+  source: nginx:latest
+  category: maestro
+  type: Default
+  links:
+  - service: mongo
+    alias: mongo
+- name: mysql
+  source: mysql:latest
+  category: maestro
+  type: Default
+- name: mongo
+  source: mongo:latest
+  category: persistence
+  type: Default
